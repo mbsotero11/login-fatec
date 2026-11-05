@@ -1,0 +1,76 @@
+:root {
+    --vermelho: #ff0000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    gap:32px;
+    font-family: 'Poppins', sans-serif;
+}
+.entrar-com{
+    font-size: 48px;
+    font-weight: 400;
+}
+.redessociais{
+    display: flex;
+    gap: 16px;
+}
+
+.redessociais a{
+background-color: blue;
+height: 40px;
+width: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+background-color: #f3f3f3;
+box-shadow: 8px 8px 16px #999;
+}
+.redessociais a:hover{
+    background-color: var(--vermelho);
+    transition: 0.3s;
+    color: #fff;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    gap: 16px;
+}
+.formulario input{
+    height: 40px;
+    background-color: #eee;
+    border: none;
+    padding: 8px;
+}
+.logar{
+    background-color: var(--vermelho);
+    height: 40px;
+    width: 50%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.conteiner-registrar
+{
+    display: flex;
+    gap: 4px;
+}
+.conteiner-registrar a{
+    font-weight: 800;
+}
